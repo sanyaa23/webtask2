@@ -1,0 +1,135 @@
+.bar {
+    display: flex;
+    justify-content: flex-end;
+    height: 35px;
+    width: 100%;
+    box-shadow: 1px 1px 8px rgb(155, 150, 150);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 6px;
+    padding: 2px;
+    height: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.containerbox {
+    height: 310px;
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.bigbox {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+
+
+}
+
+#bigbox1 {
+    box-shadow: 1px 1px 10px rgb(126, 123, 123);
+    background-image: linear-gradient(135deg, rgb(62, 62, 174), rgb(206, 25, 206), rgb(224, 20, 194));
+}
+
+#bigbox2 {
+    border: 1px solid black;
+}
+
+img {
+    height: 295px;
+    width: 295px;
+    padding: 10px;
+}
+
+#bigbox3 {
+    box-shadow: inset 1px 1px 5px rgb(126, 123, 123);
+    display: flex;
+    background-color: rgb(226, 229, 229);
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+.smallbox {
+    height: 25%;
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(29, 29, 137);
+    margin: 3px;
+
+}
+
+#sb9 {
+    background-color: rgb(113, 29, 29);
+}
+
+@media (max-width:600px) and (min-width:900px) {
+    .containerbox {
+        height: 600px;
+        width: 950px;
+        display: flex;
+        border: 1px solid black;
+        justify-content: center;
+        position: relative;
+        top: 40px;
+        gap: 20px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #bigbox1 {
+        box-shadow: 1px 1px 10px rgb(126, 123, 123);
+        background-image: linear-gradient(135deg, rgb(62, 62, 174), rgb(206, 25, 206), rgb(224, 20, 194));
+        width:900px ;
+        height: 350px;
+    }
+    #bigbox3 {
+        box-shadow: inset 1px 1px 5px rgb(126, 123, 123);
+        display: flex;
+        background-color: rgb(226, 229, 229);
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        width:450px ;
+        height: 350px;
+    
+    }
+    #bigbox2 {
+        border: 1px solid black;
+        width:450px ;
+        height: 350px;
+    }
+}
